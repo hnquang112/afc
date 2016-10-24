@@ -1,0 +1,1262 @@
+/* Special to force Bootstrap Navbar to collapse on Table since 3.1.0 */
+
+@media (max-width: 1200px) {
+.navbar-header {
+    float: none;
+}
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse {
+    border-top: none;
+    box-shadow: none;
+}
+.navbar-collapse.collapse {
+     display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-text {
+    float: none;
+    margin: 15px 0;
+}
+/* since 3.1.0*/
+.navbar-collapse.collapse.in { 
+    display: block!important;
+}
+.collapsing {
+    overflow: hidden!important;
+}
+.nav > li > a {
+    padding: 10px 10px;
+}
+}
+
+@media (max-height: 320px) {
+.afc-menu-items li {
+	display: inline-block;
+	width: 32%;
+}
+.afc-menu-items li:last-child {
+	display: inline-block;
+	width: 100%;
+}
+.afc-menu-social li {
+	width: auto;
+}
+.afc-menu-social li:last-child {
+	display: inline-block;
+	width: auto;
+}
+}
+
+@media (min-width: 599px) and (max-width: 767px) {
+body {
+	font-size: 15px;
+}
+h1, h2 {
+	font-size: 25px;
+	font-weight: 700;
+}
+h3, h4, h5, h6 {
+	font-size: 20px;
+	font-weight: 700;
+}
+.hide-m {
+	display: block;
+}
+.site-content {
+    padding-top: 88px;
+}
+.afc-menu .logo {
+	width: 90px;
+}
+.nav-icon {
+	right: 15px;
+    top: 28px;
+}
+.search-mobile {
+    padding: 14px 0;
+}
+.carousel-caption-home {
+	width: 400px;
+	padding: 20px;
+	left: 40px;
+	bottom: 20px;
+}
+.carousel-control-home.left, .carousel-control-home.right {
+	top: 44%;
+	width: 28px;
+	height: 44px;
+}
+.carousel-caption-home::after {
+	background-size: 50px 80px;
+	width: 50px;
+	height: 80px;
+}
+.carousel-caption-home h1 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.carousel-caption-home .show-date {
+	font-size: 14px;
+}
+.has-siteskin .site-content {
+	margin-top: -67px;
+}
+.landing-tvguide-box li ul li.time {
+	width: 20%;
+}
+.landing-tvguide-box li ul li.show {
+	width: 68%;
+	padding-right: 5px;
+}
+.landing-tvguide-box li ul li.ontime {
+	width: 12%;
+}
+.site-footer .footer-box .logo-resize {
+	width: 40%;
+}
+.site-footer .footer-box .sni-logo-resize {
+	width: 42%;
+}
+.wrapper-dropdown, .wrapper-dropdown-error {
+	width: 70%;
+	margin: 0 auto;
+}
+.siteskin-title {
+	margin-top: -132px;
+	width: auto;
+}
+.siteskin-title .title {
+	width: 250px;
+	margin-left: 30px;
+	padding: 20px;
+	bottom: 0;
+}
+.siteskin-title .title:after {
+	background-size: 30px 55px;
+	width: 30px;
+	height: 55px;
+}
+.siteskin-title .title h1 {
+	font-size: 20px;
+}
+.spons-manage {
+	width: 60%;
+	height: auto;
+}
+.spons-title {
+	width: 60%;
+	text-align: center;
+}
+.play-video .spons-right-title, .photo-library .spons-right-title, .recipe-data .spons-right-title {
+      width: 100%;  
+}
+.show-schedule li li.time {
+	width: 20%;
+	font-size: 18px;
+}
+.box-email-recipe {
+	position: absolute;
+	left: 192px;
+	top: 0;
+	padding: 7px 10px;
+}
+.yummly-placement {
+	left: 316px;
+	top: 6px;
+}
+.modal-header-search {
+    margin-top: 14%;
+    margin-bottom: 3%;
+    padding-right: 20px;
+} 
+.play-video .spons-right, .photo-library .spons-right, .recipe-data .spons-right {
+    width: 25%;
+}
+.photo-library .spons-right {
+    width: 68%;
+}
+.photo-library .spons-right-title {
+    text-align: center;
+    width: 66%;
+    float: right;
+}
+.about-us blockquote {
+    width: 50%;
+    float: right;
+    margin: 0 0 0 20px;
+}
+.fb-t1b4 .video-img {
+    height: 393px;
+}
+.hero .video-img {
+    height: 393px;
+}
+.siteskin-title-right-align {
+    left: 47%;
+}
+.visible-table-cell {
+    display: none !important;
+}
+}
+
+@media (min-width: 768px) {
+
+/*.small-text {
+	font-size: 17px;
+	padding-left: 15px;
+}*/
+    
+body {
+	font-size: 15px;
+}
+.spacer {
+	margin-bottom: 80px;
+}
+.spacer-btn-more {
+	margin-top: 40px;
+}
+.clearfix-xs {
+	clear: none;
+}
+.clearfix-sm {
+	clear: both;
+}
+/*.clearfix-md {
+	clear: none;
+}*/
+.xs-text-center {
+	text-align: left;
+}
+h1, h2 {
+	font-size: 25px;
+	font-weight: 700;
+}
+h3, h4, h5, h6 {
+	font-size: 20px;
+	font-weight: 700;
+}
+.spacer-half {
+	margin-bottom: 40px;
+}
+.tn-content .title-alt {
+	margin-bottom: 0;
+}
+.hide-m {
+	display: block;
+}
+.afc-header {
+	margin-top: 0;
+}
+.afc-menu {
+	padding: 10px 30px;
+}
+.has-siteskin .afc-header {
+	margin-top: 0px;
+}
+.afc-menu .logo {
+	width: 90px;
+}
+.nav-icon {
+	right: 30px;
+    top: 28px;
+}
+.search-mobile {
+    padding: 14px 0;
+}
+.site-content {
+    padding-top: 88px;
+}
+.carousel-control-home.left, .carousel-control-home.right {
+	top: 43.7%;
+	width: 33px;
+	height: 56px;
+}
+.carousel-caption-home {
+	width: 375px;
+	left: 40px;
+	padding: 20px;
+	bottom: 20px;
+}
+.carousel-caption-home h1 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.carousel-caption-home .show-date {
+	font-size: 15px;
+}
+.carousel-caption-home::after {
+	background-size: 50px 80px;
+	width: 50px;
+	height: 80px;
+}
+.has-siteskin .site-content {
+	margin-top: -170px;
+	padding-top: 15px;
+}
+.has-siteskin .siteskin .img-siteskin {
+	/*padding-top: 78px;*/
+    padding-top: 50px;
+}
+.main-title h1 {
+    font-size: 30px;
+	margin-bottom: 30px;
+}
+.fb-l1r4-inside .tn-content .tn-desc {
+	font-size: 15px;
+}
+.fb-l1r4-inside .row .row .tn-content:nth-child(1) {
+	margin-bottom: 0;
+}
+.fb-l1r3 .row .tn-content img {
+	padding-bottom: 10px;
+}
+.fb-l1r3 .row .tn-content:nth-child(1) p.short-desc {
+	margin-bottom: 10px !important;
+	padding-bottom: 20px;
+	border-bottom: #bababa 1px dashed;
+}
+.fb-l1r3 .row .row:nth-child(2):before, .fb-l1r3 .row .row:nth-child(3):before {
+	margin: 0 10px 10px;
+	width: 97%;
+	border-top: #bababa 1px dashed;
+}
+.box-banner-sizing {
+	width: 300;
+}
+.landing-tvguide-right {
+	padding: 20px 0 0 0;
+}
+.column2 .right1 {
+	padding: 20px 0 0 0;
+}
+.box-banner-sizing {
+	width: 300px;
+}
+.landing-on-tonight {
+	margin-bottom: 0;
+}
+.landing-tvguide-box li ul li.show {
+	width: 54%;
+}
+.landing-tvguide-box li ul li.ontime {
+	width: 19%;
+}
+.tn-content .title {
+	font-size: 18px;
+	line-height: 22px;
+}
+.fb-t1b4 .featured-img {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.fb-t1b4 .featured-desc {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.hero .hero-desc {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.box-link, .box-link-newsletter {
+	padding: 15px 40px;
+	font-size: 15px;
+}
+.box-link-newsletter {
+	padding: 10px 60px;
+}
+.box-email-recipe {
+	position: absolute;
+	left: 192px;
+	top: 0;
+	padding: 6px 10px 5px;
+}
+.yummly-placement {
+	left: 331px;
+	top: 6px;
+}
+.fb-h7-box {
+	padding: 60px 40px 40px;
+}
+.site-footer .footer-box {
+	padding: 40px 30px;
+}
+.site-footer .footer-box .logo-resize {
+	width: 46%;
+}
+.site-footer .footer-box .sni-logo-resize {
+	width: 60%;
+}
+.wrapper-dropdown, .wrapper-dropdown-error {
+	width: 66%;
+}
+.site-footer .footer-box .afc-footer-social li {
+	width: 28px;
+	margin: 0 2px;
+}
+.site-footer .footer-box .afc-footer-social .social-icon {
+	width: 28px;
+	height: 28px;
+}
+.site-footer .footer-box .afc-footer-social li a {
+	padding: 1px;
+}
+.site-footer .footer-box .mobile {
+	margin-bottom: 0;
+}
+.site-footer .footer-box .afc-logo-mobile {
+	text-align: left;
+}
+.footer-box:after {
+	background-size: 80px 130px;
+	width: 80px;
+	height: 130px;
+}
+.newsletter {
+	background-size: 55%;
+}
+.newsletter .newsletter-content {
+	padding: 25px 400px 25px 20px;
+}
+.newsletter .newsletter-content h1 {
+	font-size: 20px;
+}
+.siteskin-title, .siteskin-title-right-align {
+	margin-top: -235px;
+    width: auto;
+
+}
+.siteskin-title-right-align {
+    left: 58%;
+}
+.siteskin-title .title {
+	width: 250px;
+	margin-left: 30px;
+	padding: 20px;
+	bottom: 0;
+}
+.siteskin-title .title:after {
+	background-size: 30px 55px;
+	width: 30px;
+	height: 55px;
+}
+.siteskin-title .title h1 {
+	font-size: 20px;
+}
+.media-left {
+	display: table-cell;
+}
+.media-img {
+	width: 50%;
+}
+.taboola-text {
+	margin-top: -30px;
+}
+.spons-title {
+	width: 60%;
+}
+.spons-manage {
+	width: 60%;
+}
+.right-featured-spacing {
+	margin-bottom: 20px;
+}
+.show-schedule li li.time {
+	width: 15%;
+	font-size: 20px;
+}
+.show-schedule li li p.title {
+	font-size: 18px;
+}
+.show-schedule li li p.subtitle {
+	font-size: 12px;
+}
+.season-content .episode-details img {
+	margin-bottom: 0;
+}
+.landing-recipe {
+	padding: 60px 30px;
+}
+.landing-recipe-left .recipe-collection li {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.landing-recipe-left .recipe-collection li li {
+	width: 33%;
+	margin-bottom: 0;
+}
+.landing-recipe-left .recipe-collection li li a {
+	font-size: 18px;
+}
+.play-video .right-sponsor, .photo-library .right-sponsor, .recipe-data .right-sponsor {
+	text-align: right;
+    margin-top: 0;
+}
+.play-video .spons-right-title, .photo-library .spons-right-title, .recipe-data .spons-right-title {
+	float: right;
+	text-align: center;
+    width: 82%;
+}
+.play-video .spons-right, .photo-library .spons-right, .recipe-data .spons-right  {
+	width: 82%;
+	height: auto;
+	margin-bottom: 0;
+}
+.photo-library .spons-right-title {
+    width: 80%;
+}
+.pagination > li > a, .pagination > li > span {
+	padding: 12px 24px;
+}
+.pagination a.arrow-left, .pagination a.arrow-right {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.recipe-data .label-recipe-metric {
+	font-size: 13px;
+}
+.recipe-data .ingredient-show {
+	margin-top: 0;
+}
+.tvguide-date span {
+	width: 12.3%;
+}
+.tvguide-date .day {
+	font-size: 18px;
+}
+.tvguide-date .date {
+	font-size: 13px;
+}
+.glyphicon-guide-left, .glyphicon-guide-right {
+	margin-top: -23px !important;
+}
+.carousel-control-guide.left, .carousel-control-guide.right {
+	padding: 0 15px;
+}
+.glyphicon-guide-left {
+	left: 52% !important;
+}
+.glyphicon-guide-right {
+	left: 3% !important;
+}
+.spacer-mobile {
+	margin-bottom: 0;
+}
+.show-schedule-overflow {
+	height: 879px;
+}
+.hero .hero-box:after {
+	right: 50px;
+	background-size: 50px 80px;
+	width: 50px;
+	height: 80px;
+}
+.hero .hero-box, .chefpage-hero .hero-box {
+	padding: 30px 25px;
+}
+.label-search {
+	font-size: 12px;
+	padding: 10px;
+}
+.close-search, .close-email {
+    font-size: 80px;
+}
+.form-control-search, .form-control-email {
+    font-size: 26px;
+}
+.modal-dialog-search, .modal-dialog-email {
+    width: 80% !important;
+}
+.modal-header-search, {
+    margin-top: 10%;
+    padding-right: 0;
+}
+.modal-header-email {
+    margin-top: 15%;
+    padding-right: 0;
+    margin-bottom: 10%;  
+}
+button.close-search, button.close-email {
+    width: 60px;
+}
+.modal-search-btn, .modal-email-btn {
+    padding: 15px;
+}
+.modal-body h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.about-us .box-out, .advertise .box-out {
+    padding: 40px;
+}
+.about-us blockquote {
+    width: 40%;
+    float: right;
+    margin: 0 0 0 20px;
+}
+.about-us .big-text {
+    font-size: 20px;
+}
+.about-us blockquote p {
+    font-size: 16px;
+    line-height: 0.8;
+}
+.advertise .shout-out, .advertise .telephone {
+    font-size: 22px;
+}
+.career .shout-out {
+    font-size: 25px;
+}
+.terms-privacy h2 {
+    font-size: 18px;
+}
+.career .shout-out {
+    font-size: 30px;
+}
+.callout-schedule .box-out {
+    padding: 30px 15px;
+    margin-bottom: 0;
+}
+.callout-schedule .box-out span.time {
+    font-size: 20px;
+}
+.callout-schedule .box-out span.date {
+    font-size: inherit
+}   
+.fb-t1b4 .video-img {
+    height: 251px;
+}
+.hero .video-img {
+    height: 266px;
+}
+.bio-box {
+    padding: 40px;
+}
+.addthis_sharing_toolbox {
+    height: 32px;
+}
+.visible-table-cell {
+    display: none !important;
+}
+.tn-content .subtitle {
+	font-size: 13px;
+}
+.static-afc {
+    margin-bottom: 40px;
+}
+.video-player-recommend-overlay div div.description {
+	padding: 8px 12px;
+}
+.video-player-recommend-overlay strong {
+	font-size: 14px;
+}
+.video-player-recommend-overlay .description p {
+	font-size: 16px;
+	margin-top: 8px;
+}
+.video-player-recommend-overlay .description button.close {
+
+}
+}
+
+@media (min-width: 992px) {
+/*.clearfix-xs {
+	clear: none;
+}  */ 
+.clearfix-sm {
+	clear: none;
+} 
+.clearfix-md {
+	clear: both;
+}   
+.tinynav {
+	display: none
+}
+body {
+	font-size: 14px;
+}
+.nav-icon {
+	display: none;
+}
+.afc-header {
+	margin-top: 0;
+}
+.afc-menu {
+	max-width: 960px;
+	padding: 30px 15px 10px 15px;
+	background-color: rgba(255,255,255,1.00)
+}
+.has-siteskin .afc-menu {
+	padding-top: 10px;
+	margin-top: 20px;
+}
+.afc-menu .logo {
+	width: 110px;
+	padding-left: 0;
+}
+.small-logo {
+	width: 80px !important;
+}
+.afc-menu-items {
+	margin-top: 0;
+	float: right;
+	height: auto;
+}
+.afc-menu-items.open {
+	margin-top: 0;
+}
+ul.afc-menu-items {
+	-webkit-transition: margin-top 0.5s ease-out;
+	transition: margin-top 0.5s ease-out;
+}
+ul.afc-menu-items-small {
+	margin-top: -10px;
+}
+.afc-menu-items li {
+	margin-top: 12px;
+	font-size: 19px;
+	display: inline-block;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.afc-menu-items li:last-child {
+	position: relative;
+	top: -3px;
+	padding-left: 37px;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.afc-menu-items-small li:last-child {
+	padding-left: 55px;
+}
+.afc-menu-items li a {
+	display: block;
+	padding: 10px;
+}
+.afc-menu-social li {
+	font-size: 15px;
+	display: inline-block;
+	padding-bottom: 0;
+}
+.afc-menu-social li:first-child {
+	border-right: 1px;
+	border-right-color: #8cc63f;
+	border-right-style: solid;
+	padding-right: 6px;
+}
+.afc-menu-social li:last-child {
+	position: relative;
+	top: 0;
+	padding-left: 0;
+}
+.afc-menu-social li a {
+	display: block;
+	padding: 0;
+}
+.afc-header.small {
+	background-color: rgba(255,255,255,1);
+}
+.afc-header.small .afc-menu {
+	margin-top: 0;
+	padding-top: 10px;
+}
+.fa-twitter-alt:before {
+	font-size: 17px;
+}
+.fa-youtube-play:before {
+	font-size: 17px;
+}
+.float-position {
+	float: left;
+}
+.site-content {
+    padding-top: 121px;
+}
+.carousel-control-home.left, .carousel-control-home.right {
+	top: 44%;
+}
+.carousel-caption-home {
+	width: 400px;
+	left: 60px;
+}
+.has-siteskin .afc-header {
+	margin-top: 0;
+}
+.has-siteskin .site-content {
+	margin-top: -280px;
+	padding-top: 15px;
+}
+.has-siteskin .siteskin .img-siteskin {
+	padding-top: 0;
+}
+.fb-l1r4-inside .tn-content .tn-desc {
+	font-size: 12px;
+	margin: 0 20px 25px 10px;
+}
+.fb-l1r4-inside img {
+	margin-bottom: 15px;
+}
+.fb-l1r3 .row .tn-content:nth-child(1) p.short-desc {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+.fb-l1r3 .row .tn-content p.short-desc {
+    margin-bottom: 10px;
+}
+.tn-content .title {
+	font-size: 17px;
+}
+/*.card-list .short-desc {
+	margin-bottom: 0;
+}*/
+.fb-t1b4 .card-list .short-desc {
+    margin-bottom: 0 !important;
+}
+.landing-tvguide-left, .landing-recipe-left {
+	display: table-cell;
+	width: 100%;
+}
+.landing-tvguide-right, .landing-recipe-right {
+	display: table-cell;
+	padding: 0 0 0 20px;
+}
+.left-content {
+	display: table-cell;
+	width: 100%;
+}
+.right-content {
+	display: table-cell;
+	padding: 0 0 0 40px;
+}
+.right-top-spacer {
+	padding: 0 0 0 0 !important;
+}
+.landing-on-tonight .show-time .show-time-time {
+	font-size: 25px;
+}
+.landing-tvguide-box li ul li.time {
+	width: 25%;
+}
+.landing-tvguide-box li ul li.show {
+	width: 55%;
+}
+.landing-tvguide-box li ul li.ontime {
+	width: 20%;
+}
+.landing-tvguide-box .label-ontime {
+	font-size: 11px;
+	width: 60px;
+}
+.fb-t1b4 .featured-img {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.fb-t1b4 .featured-desc {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.one-row .card-list .title {
+	margin-bottom: 0 !important;
+}
+.hero .hero-desc {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.fb-t1b4 .card-list .tn-content:nth-child(2) {
+	margin-bottom: 0;
+}
+.fb-h7-box .tn-content .title {
+	margin-bottom: 0;
+}
+.site-footer .footer-box {
+	padding: 40px 50px;
+}
+.site-footer .footer-box .sitemap {
+	margin-bottom: 0;
+}
+.site-footer .footer-box li {
+	text-align: left;
+}
+.site-footer .footer-box .logo-resize {
+	width: 75%;
+	margin-bottom: 20px;
+}
+.site-footer .footer-box .sni-logo-resize {
+	width: 87%;
+}
+.wrapper-dropdown, .wrapper-dropdown-error {
+	width: 90%;
+}
+.site-footer .footer-box .afc-footer-social li {
+	width: 26px;
+	margin: 0 1px;
+}
+.site-footer .footer-box .afc-footer-social .social-icon {
+	width: 26px;
+	height: 26px;
+}
+.site-footer .footer-box .afc-footer-social li a {
+	padding: 1px;
+}
+.newsletter {
+	background-size: 45%;
+}
+.newsletter .newsletter-content {
+	padding: 25px 500px 25px 20px;
+}
+.newsletter .newsletter-content h1 {
+	font-size: 25px;
+}
+.fb-listing4 .card-list {
+	/*margin-bottom: 30px;*/
+} 
+.fb-listing4-title .card-list .title {
+	/* margin-bottom: 0 !important; */
+	margin-bottom: 0;
+}
+.show-subnav {
+	font-size: 14px;
+}
+.siteskin-title {
+	margin-top: -345px;
+	width: auto;
+}
+.siteskin-title .title {
+	width: 320px;
+	margin-left: 30px;
+	bottom: 0;
+}
+.siteskin-title .title:after {
+	background-size: 30px 55px;
+	width: 30px;
+	height: 55px;
+}
+.siteskin-title .title h1 {
+	font-size: 25px;
+}
+.right-featured-spacing {
+	margin-bottom: 30px;
+}
+.right-recommended {
+	margin-bottom: 15px;
+}
+.show-schedule li li.time {
+	width: 20%;
+	font-size: 20px;
+}
+.landing-recipe-left .recipe-search .search-box {
+	width: 95%;
+}
+.taboola-sponsor {
+	margin-top: 0;
+	padding-bottom: 0;
+}
+.play-video .video-desc {
+	margin-bottom: 0 !important;
+}
+.recipe-data .label-recipe-metric {
+	font-size: 10px;
+}
+.show-schedule-overflow {
+	height: 879px;
+}
+.tvguide-date span {
+	width: 12%;
+}
+.show-schedule li li p.title {
+	font-size: 17px;
+}
+.hero .hero-box:after {
+	right: 80px;
+}
+.hero .hero-box, .chefpage-hero .hero-box {
+	padding: 30px 30px;
+}
+.close-search, .close-email {
+    font-size: 100px;
+}
+.form-control-search, .form-control-email {
+    font-size: 30px;
+}
+button.close-search, button.close-email {
+    width: 50px;
+}
+.modal-header-search, .modal-header-email {
+    margin-top: 14%;
+    margin-bottom: 13%;
+    padding-right: 0;
+}
+.about-us blockquote {
+    width: 27%;
+}
+.about-us .big-text {
+    font-size: 23px;
+}
+.advertise .shout-out, .advertise .telephone, .career .shout-out {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.siteskin-title-right-align {
+    left: 58%;
+}
+.callout-schedule .box-out {
+    background-color: #f3f3f3;
+    padding: 20px 15px;
+}
+.callout-schedule .box-out span.time {
+    font-size: 17px;
+}
+.fb-t1b4 .video-img {
+    height: 379px;
+}
+.hero .video-img {
+    height: 400px;
+}
+.navbar-nav {
+    margin: 0;
+}
+.right-recommended .title {
+    font-size: 17px;
+}
+
+.recipe-data .spons-right {
+	width: 100%;
+}
+
+.recipe-data .spons-right-title {
+	width: 100%;
+}
+
+}
+
+@media (min-width: 1200px) {
+body {
+	font-size: 15px;
+}
+.row-lg-height {
+	display: table;
+	table-layout: fixed;
+	height: 100%;
+	width: 100%;
+}
+.col-lg-height {
+	display: table-cell;
+	float: none;
+	height: 100%;
+}
+.col-lg-top {
+	vertical-align: top;
+}
+.col-lg-middle {
+	vertical-align: middle;
+}
+.col-lg-bottom {
+	vertical-align: bottom;
+}
+.afc-menu {
+	max-width: 1160px;
+}
+.afc-menu .logo {
+	width: 130px;
+}
+.small-logo {
+	width: 90px !important;
+}
+ul.afc-menu-items-small {
+	margin-top: -12px;
+}
+.afc-menu-items li {
+	margin-top: 16px;
+	font-size: 23px;
+}
+.afc-menu-items li:last-child {
+	padding-left: 67px;
+}
+.afc-menu-items-small li:last-child {
+	padding-left: 89px;
+}
+.afc-menu-social li {
+	font-size: 17px;
+}
+.afc-menu-social li:last-child, .afc-menu-social-small li:last-child {
+	padding-left: 0;
+}
+.fa-twitter-alt:before {
+	font-size: 20px;
+}
+.fa-youtube-play:before {
+	font-size: 19px;
+}
+.site-content {
+    padding-top: 134px;
+}
+.carousel-caption-home {
+	width: 550px;
+}
+.has-siteskin .site-content {
+	margin-top: -12%;
+	padding-top: 15px;
+}
+.fb-l1r4-inside .tn-content .tn-desc {
+	font-size: 15px;
+}
+.fb-t1b4 .featured-box {
+	padding: 20px 60px;
+}
+.tn-content .title {
+	font-size: 20px;
+}
+/*.tn-content .subtitle, .fb-t1b4 .featured-desc .tn-content .subtitle {
+	font-size: 15px;
+}*/
+.landing-on-tonight .show-time .show-time-time {
+	font-size: 25px;
+}
+.landing-tvguide-box li ul li.time {
+	width: 20%;
+}
+.landing-tvguide-box li ul li.show {
+	width: 60%;
+}
+.landing-tvguide-box li ul li.ontime {
+	width: 20%;
+}
+.landing-tvguide-box .label-ontime {
+	font-size: 13px;
+	width: 80px;
+}
+.fb-h7-box {
+	padding: 80px 50px 60px;
+}
+.site-footer .footer-box .sni-logo-resize {
+	width: 80%;
+}
+.site-footer .footer-box .afc-footer-social li {
+	width: 33px;
+	margin: 0;
+}
+.site-footer .footer-box .afc-footer-social .social-icon {
+	width: 28px;
+	height: 28px;
+}
+.site-footer .footer-box .afc-footer-social li a {
+	padding: 2px;
+}
+.newsletter .newsletter-content {
+	padding: 35px 500px 35px 20px;
+}
+.show-subnav {
+	font-size: 16px;
+}
+.siteskin-title {
+	margin-top: -17%;
+	width: auto;
+}
+.siteskin-title-right-align {
+    left: 60%;
+}
+.siteskin-title .title {
+	width: 350px;
+	bottom: 0;
+}
+.siteskin-title .title:after {
+	background-size: 35px 65px;
+	width: 35px;
+	height: 65px;
+}
+.siteskin-title .title h1 {
+	font-size: 28px;
+}
+.show-schedule li li.time {
+	width: 15%;
+}
+.hero .hero-box, .chefpage-hero .hero-box {
+	padding: 30px 60px;
+}
+.recipe-data .label-recipe-metric {
+	font-size: 13px;
+}
+.tvguide-date span {
+	width: 12.5%;
+}
+.show-schedule li li p.title {
+	font-size: 18px;
+}
+button.close-search, button.close-email {
+    width: 60px;
+}
+.modal-header-search, .modal-header-email {
+    margin-top: 10%;
+    margin-bottom: 15%;
+}  
+.about-us blockquote {
+    width: 27%;
+}
+.advertise .shout-out, .advertise .telephone {
+    font-size: 35px;
+}
+.career .shout-out {
+    font-size: 30px;
+}
+.callout-schedule .box-out {
+    padding: 30px 15px;
+}
+.callout-schedule .box-out span.time {
+    font-size: 20px;
+}
+.callout-schedule .box-out span.date {
+    font-size: inherit
+}
+.embed-playlist iframe {
+	height: 70%;
+}
+.embed-responsive-16by9.embed-playlist {
+	margin-bottom: -130px;
+}
+}
+
+@media (min-width: 1439px) {
+.siteskin-title {
+	width: auto;
+}
+.modal-header-search, .modal-header-email {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+}
+
+@media (min-width: 1680px) {
+/*.has-siteskin .site-content {
+	margin-top: -15%;
+	padding-top: 15px;
+}*/
+.siteskin-title {
+	width: auto;
+}
+.siteskin-title-right-align {
+    left: 58%;
+}
+.siteskin-title .title h1 {
+	font-size: 30px;
+}
+.modal-header-search {
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.modal-header-email {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+}

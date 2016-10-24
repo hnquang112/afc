@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<title>Example</title>
+
+<!-- Styles -->	
+<style style="text/css">
+.markets-bar {
+	background: -owg-linear-gradient(to right,#fab92e,#8cc63f);
+	background: -webkit-linear-gradient(to right,#fab92e,#8cc63f);
+	background: -moz-linear-gradient(to right,#fab92e,#8cc63f);
+	background: -o-linear-gradient(to right,#fab92e,#8cc63f);
+	background: linear-gradient(to right,#fab92e,#8cc63f);
+	width: 100%;
+	height: 2.5rem;
+	margin: 0 auto 1.25rem;
+}
+.markets-bar .markets-bar-title {
+	float: left;
+	white-space: nowrap;
+}
+
+.markets-bar .markets-bar-marquee {
+	overflow: hidden;
+	white-space: nowrap;
+}
+.markets-bar .markets-bar-title span {
+	line-height: 2.5rem;
+	padding: 0 1.25rem;
+	font-family: NHaasGroteskDSPro-75Bd,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.125rem;
+	color: #FFF;
+}
+.markets-bar .markets-bar-title:after {
+	content: "";
+	display: inline-block;
+	height: 1.875rem;
+	margin-bottom: .1875rem;
+	border-right: 1px solid rgba(255,255,255,.35);
+	vertical-align: middle;
+}
+.markets-bar .markets-bar-collection {
+	animation: marquee 30s linear infinite;
+	display: table-cell;
+	position: relative;
+	/*width: 450px;*/
+}
+.markets-bar .markets-bar-collection:hover {
+	animation-play-state: paused;
+}
+.markets-bar .markets-bar-item {
+	display: inline-block;
+	vertical-align: top;
+	line-height: 2.5rem;
+}
+.markets-bar .markets-bar-story {
+	display: inline-block;
+}
+.markets-bar .markets-bar-item:after {
+	overflow: hidden;
+	text-indent: -9999rem;
+	font-size: 0;
+	line-height: 0;
+	content: "line after";
+	display: inline-block;
+	height: 1.875rem;
+	margin-bottom: .1875rem;
+	border-right: 1px solid rgba(255,255,255,.35);
+	vertical-align: middle;
+}
+.markets-bar .markets-bar-item__link {
+	display: inline-block;
+	padding: 0 1.25rem;
+	color: rgba(255,255,255,.7);
+}
+.markets-bar .markets-bar-item__headline {
+	/*padding-right: .3125rem;*/
+	font-family: NHaasGroteskDSPro-75Bd,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 1.125rem;
+}
+@-moz-keyframes marquee {
+	0%   { -moz-transform: translateX(100%); }
+	100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes marquee {
+	0%   { -webkit-transform: translateX(100%); }
+	100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes marquee {
+	0%   { 
+		-moz-transform: translateX(100%); /* Firefox bug fix */
+		-webkit-transform: translateX(100%); /* Firefox bug fix */
+		transform: translateX(100%);
+	}
+	100% { 
+		-moz-transform: translateX(-100%); /* Firefox bug fix */
+		-webkit-transform: translateX(-100%); /* Firefox bug fix */
+		transform: translateX(-100%); 
+	}
+}
+</style>
+
+<!-- HTML -->	
+<div class="home__markets-bar">
+	<div class="markets-bar" data-tracker-events="click">
+		<div class="markets-bar-title"> <span>Categories</span> </div>
+		<div class="markets-bar-marquee">
+			<div class="markets-bar-collection">
+				<div class="markets-bar-item">
+					<div class="markets-bar-story">
+						<a class="markets-bar-item__link" href="http://www.bloomberg.com/news/articles/2016-10-24/asia-stocks-drop-after-best-weekly-gain-in-month-before-earnings"> <span class="markets-bar-item__headline">Economy</span> </a>
+					</div>
+				</div>
+				<div class="markets-bar-item">
+					<div class="markets-bar-story">
+						<a class="markets-bar-item__link" href="http://www.bloomberg.com/news/articles/2016-10-24/euro-near-seven-month-low-versus-dollar-on-policy-divergence-bet"> <span class="markets-bar-item__headline">Society</span> </a>
+					</div>
+				</div>
+				<div class="markets-bar-item">
+					<div class="markets-bar-story">
+						<a class="markets-bar-item__link" href="http://www.bloomberg.com/news/articles/2016-10-23/oil-holds-above-50-as-iraq-signals-break-from-opec-output-plan"> <span class="markets-bar-item__headline">Education</span> </a>
+					</div>
+				</div>
+				<div class="markets-bar-item">
+					<div class="markets-bar-story">
+						<a class="markets-bar-item__link" href="http://www.bloomberg.com/news/articles/2016-10-23/saudi-stocks-advance-third-day-to-lead-most-gulf-markets-higher"> <span class="markets-bar-item__headline">Tech</span> </a>
+					</div>
+				</div>
+				<div class="markets-bar-item">
+					<div class="markets-bar-story">
+						<a class="markets-bar-item__link" href="http://www.bloomberg.com/news/articles/2016-10-21/global-yield-curves-flatten-as-bofa-says-wager-on-more-to-come"> <span class="markets-bar-item__headline">Sports</span> </a>
+					</div>
+				</div>
+				<div class="markets-bar-item">
+					<div class="markets-bar-story">
+						<a class="markets-bar-item__link" href="http://www.bloomberg.com/news/articles/2016-10-21/canada-stocks-rise-for-fifth-day-as-energy-rally-persists"> <span class="markets-bar-item__headline">World News</span> </a>
+					</div>
+				</div>
+				<div class="markets-bar-item">
+					<div class="markets-bar-story">
+						<a class="markets-bar-item__link" href="http://www.bloomberg.com/news/articles/2016-10-21/brazil-real-joins-emerging-market-slide-as-traders-look-to-fed"> <span class="markets-bar-item__headline">Opinion</span> </a>
+					</div>
+				</div>
+				<div class="markets-bar-item">
+					<div class="markets-bar-story">
+						<a class="markets-bar-item__link" href="http://www.bloomberg.com/news/articles/2016-10-24/asia-stocks-drop-after-best-weekly-gain-in-month-before-earnings"> <span class="markets-bar-item__headline">Vietnam in photo</span> </a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
